@@ -3,6 +3,7 @@ spring:
   cloud:
     config:
       server:
+        git:
+          enabled: false
         native:
-          # подставь свой путь до ms-config-properties
-          search-locations: file:///home/you/projects/ms-config-properties
+          search-locations: "file:///D:/Java/Kata/Java%20Advance/ms-config-properties"
