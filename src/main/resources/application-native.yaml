@@ -1,0 +1,8 @@
+spring:
+  profiles: native
+  cloud:
+    config:
+      server:
+        native:
+          # подставь свой путь до ms-config-properties
+          search-locations: file:///home/you/projects/ms-config-properties
